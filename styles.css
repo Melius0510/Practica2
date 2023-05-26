@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 3fr 2fr;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .green {
+    background-color: green;
+    width: 445px;
+    height:100vh;
+  }
+  
+  .white {
+    background-color: white;
+    width: 445px;
+    height:100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .white img{
+    width: 250px;
+    
+}
+  
+ .red{
+    background-color:red;
+    width: 445px;
+    height:100vh;
+ }
+  
